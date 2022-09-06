@@ -2,7 +2,7 @@ package polymorphism_Java;
 
     public class Zoo {
 
-        public static void main(String[] args) throws NotDogCatHumanException, NotDogCatHumanException {
+        public static void main(String[] args) throws NotDogCatHumanException {
             Dog rocky = new Dog();
             rocky.fetch();
             rocky.makeSound();
