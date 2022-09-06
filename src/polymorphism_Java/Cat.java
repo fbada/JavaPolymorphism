@@ -8,7 +8,7 @@ public class Cat extends Animal{
     }
 
     public void scratch(){
-        System.out.println("I'm gonna scratch shit up!!");
+        System.out.println("I'm gonna scratch YOU!!");
     }
 }
 
