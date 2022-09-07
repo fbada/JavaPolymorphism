@@ -8,6 +8,12 @@ package polymorphism_Java;
             rocky.makeSound();
             feed(rocky);
 
+            System.out.println("-----------------------------");
+
+            Cat fluffy = new Cat();
+            fluffy.makeSound();
+            fluffy.scratch();
+
             Animal sasha = new Dog();
             sasha.makeSound();
             ((Dog)sasha).fetch();
@@ -34,6 +40,9 @@ package polymorphism_Java;
             System.out.println(((Human)jerry).introduceYourself("Jerry"));
             feed(jerry);
 
+            Human ela = new Human();
+            System.out.println(ela.introduceYourself("Ela"));
+            ela.makeSound();
         }
 
         public static void feed(Animal critter) throws NotDogCatHumanException {
