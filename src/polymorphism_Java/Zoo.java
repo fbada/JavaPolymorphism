@@ -15,7 +15,6 @@ package polymorphism_Java;
             fluffy.scratch();
             System.out.println(fluffy.name);
 
-
             Animal sasha = new Dog();
             sasha.makeSound();
             ((Dog)sasha).fetch();
