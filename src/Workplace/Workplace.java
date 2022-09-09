@@ -8,13 +8,13 @@ public class Workplace {
 
     public static void main(String[] args) {
 
-        Employee tester = new Tester("BAz", 27, 'M', 125533, "SET", 120_000);
+        Employee tester = new Tester("BAz", 27, 'M', 125533, "SET", 120000);
         tester.eat();
         ((Tester)tester).bugReport();
         ((Tester)tester).work();
         System.out.println("-------------------------------------------------------");
 
-        Person person = new UIDesigner("Jo", 32, 'F', 1245552, "Mobile UI", 140_000);
+        Person person = new UIDesigner("Jo", 32, 'F', 1245552, "Mobile UI", 140000);
         person.getAge();
         person.setAge(34);
         ((UIDesigner)person).sleep();
@@ -58,14 +58,11 @@ public class Workplace {
         System.out.println(developers);
         System.out.println(scrumMembers);
 
-
         String name = developers.get(0).getName();
         System.out.println(name);
 
         testers.get(1).getAge();
         testers.get(1).bugReport();
-
-
 
     }
 
