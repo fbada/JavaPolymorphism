@@ -17,7 +17,7 @@ public final class UIDesigner extends Employee {
         System.out.println(getName()+" is sleeping 8 hours. J/K client wants another revision.");
     }
 
-public void beCreative(){
+    public void beCreative(){
     System.out.println("Creative juices are flowing for "+getName());
 }
 
