@@ -1,6 +1,6 @@
 package polymorphism_Java;
 
-public class Dog extends Animal implements Playable{
+public class Dog extends Animal implements Playable, Comfort{
 
     @Override
     public void makeSound() {
@@ -15,5 +15,10 @@ public class Dog extends Animal implements Playable{
     @Override
     public void play() {
         System.out.println("Love to play with you!");
+    }
+
+    @Override
+    public void comfortYou() {
+        System.out.println("Ill be there when you're down.");
     }
 }

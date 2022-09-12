@@ -1,6 +1,6 @@
 package polymorphism_Java;
 
-public class Cat extends Animal implements Playable{
+public class Cat extends Animal implements Playable, Comfort{
 
     boolean isNice;
 
@@ -30,6 +30,11 @@ public class Cat extends Animal implements Playable{
     @Override
     public void play() {
         System.out.println("Not a fan, but if I like you, I'll play.");
+    }
+
+    @Override
+    public void comfortYou() {
+        System.out.println("Go find the dog.");
     }
 }
 
