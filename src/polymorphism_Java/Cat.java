@@ -1,6 +1,6 @@
 package polymorphism_Java;
 
-public class Cat extends Animal{
+public class Cat extends Animal implements Playable{
 
     boolean isNice;
 
@@ -25,6 +25,11 @@ public class Cat extends Animal{
     public void scratch(){
         isNice = false;
         System.out.println("I'm gonna scratch YOU!! NIce: "+isNice);
+    }
+
+    @Override
+    public void play() {
+        System.out.println("Not a fan, but if I like you, I'll play.");
     }
 }
 

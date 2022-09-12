@@ -43,6 +43,7 @@ public class Workplace {
         List<Tester> testers = new ArrayList<>();
         List<Developer> developers = new ArrayList<>();
 
+       
         for (Employee scrumMember : scrumMembers) {
             if(scrumMember instanceof Tester){
                 testers.add((Tester) scrumMember);

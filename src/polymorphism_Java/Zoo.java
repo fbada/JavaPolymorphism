@@ -7,22 +7,26 @@ package polymorphism_Java;
             rocky.fetch();
             rocky.makeSound();
             feed(rocky);
+            rocky.play();
 
             System.out.println("-----------------------------");
 
             Cat fluffy = new Cat("Fluffy");
             fluffy.makeSound();
             fluffy.scratch();
+            fluffy.play();
             System.out.println(fluffy.name);
 
             Animal sasha = new Dog();
             sasha.makeSound();
             ((Dog)sasha).fetch();
             feed(sasha);
+            ((Dog) sasha).play();
 
             sasha = new Cat();
             sasha.makeSound();
             ((Cat)sasha).scratch();
+            ((Cat) sasha).play();
             feed(sasha);
 
             Animal beep = new Animal();
