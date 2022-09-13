@@ -37,6 +37,6 @@ public class Human extends Animal {
         return "My name is " + name + " and I am a human... living my life ...rocking out to human music";
     }
     public String introduceYourself(String name, String passtime){
-        return "";
+        return "My name is "+ name+" and I love to "+passtime;
     }
 }
