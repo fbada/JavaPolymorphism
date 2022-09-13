@@ -22,6 +22,7 @@ public class Workplace {
         System.out.println(person);
         person.eat();
 
+
         System.out.println("-------------------------------------------------------");
         Employee[] employees = {
                 new Tester("Sherali", 32, 'M',132323, "QA", 110000),
@@ -42,6 +43,7 @@ public class Workplace {
         List<Tester> testers = new ArrayList<>();
         List<Developer> developers = new ArrayList<>();
 
+       
         for (Employee scrumMember : scrumMembers) {
             if(scrumMember instanceof Tester){
                 testers.add((Tester) scrumMember);
